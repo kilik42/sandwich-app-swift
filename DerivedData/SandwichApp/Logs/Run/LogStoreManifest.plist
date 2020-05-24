@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>30053915-8E64-4AED-910A-71C3EE98302E</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>30053915-8E64-4AED-910A-71C3EE98302E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>611823331.08600497</real>
+			<key>timeStoppedRecording</key>
+			<real>611823347.67437804</real>
+			<key>title</key>
+			<string>Run SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>30053915-8E64-4AED-910A-71C3EE98302E</string>
+		</dict>
+		<key>318D6F14-8928-4C4C-93A7-D1A120FBED02</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>318D6F14-8928-4C4C-93A7-D1A120FBED02.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612042118.18093097</real>
+			<key>timeStoppedRecording</key>
+			<real>612042147.32362604</real>
+			<key>title</key>
+			<string>Run SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>318D6F14-8928-4C4C-93A7-D1A120FBED02</string>
+		</dict>
+		<key>882B0C86-A1D8-49E4-B0BA-215128BE7091</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>882B0C86-A1D8-49E4-B0BA-215128BE7091.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612042444.96011806</real>
+			<key>timeStoppedRecording</key>
+			<real>612042460.92106199</real>
+			<key>title</key>
+			<string>Run SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>882B0C86-A1D8-49E4-B0BA-215128BE7091</string>
+		</dict>
+		<key>986DA78D-C3CA-4610-A5A3-DFEE073814C8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>986DA78D-C3CA-4610-A5A3-DFEE073814C8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612042395.28491402</real>
+			<key>timeStoppedRecording</key>
+			<real>612042420.73316896</real>
+			<key>title</key>
+			<string>Run SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>986DA78D-C3CA-4610-A5A3-DFEE073814C8</string>
+		</dict>
+		<key>C266D6DA-A484-4637-ADA2-BBECD357EBA8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C266D6DA-A484-4637-ADA2-BBECD357EBA8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612042468.70527601</real>
+			<key>timeStoppedRecording</key>
+			<real>612042483.54873395</real>
+			<key>title</key>
+			<string>Run SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>C266D6DA-A484-4637-ADA2-BBECD357EBA8</string>
+		</dict>
+		<key>EE580BD6-2CC1-4BA7-9AE6-5391D17BC89F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EE580BD6-2CC1-4BA7-9AE6-5391D17BC89F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612042515.26608706</real>
+			<key>timeStoppedRecording</key>
+			<real>612042529.68691504</real>
+			<key>title</key>
+			<string>Run SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>EE580BD6-2CC1-4BA7-9AE6-5391D17BC89F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
