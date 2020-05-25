@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0CDA6DE6-8FEF-4C9C-9F47-FBC9469B8653</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0CDA6DE6-8FEF-4C9C-9F47-FBC9469B8653.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612073190.05584896</real>
+			<key>timeStoppedRecording</key>
+			<real>612073191.80598199</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>0CDA6DE6-8FEF-4C9C-9F47-FBC9469B8653</string>
+		</dict>
 		<key>1E5E83C4-27E4-465B-832A-F892C18E8AB9</key>
 		<dict>
 			<key>className</key>
@@ -39,6 +73,40 @@
 			<string>Build SandwichApp</string>
 			<key>uniqueIdentifier</key>
 			<string>1E5E83C4-27E4-465B-832A-F892C18E8AB9</string>
+		</dict>
+		<key>28151E2D-B215-48E3-8284-14D907943038</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>28151E2D-B215-48E3-8284-14D907943038.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612073064.01713395</real>
+			<key>timeStoppedRecording</key>
+			<real>612073066.41296399</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>28151E2D-B215-48E3-8284-14D907943038</string>
 		</dict>
 		<key>28CE5850-3488-4596-A61A-682774AAB049</key>
 		<dict>
@@ -142,6 +210,40 @@
 			<key>uniqueIdentifier</key>
 			<string>7AE3A23A-B6F7-4FE7-96AB-9F256FD7DF16</string>
 		</dict>
+		<key>835BA487-0AB2-423E-9F6B-7F7FD4F9C3B7</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>835BA487-0AB2-423E-9F6B-7F7FD4F9C3B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612072855.87884295</real>
+			<key>timeStoppedRecording</key>
+			<real>612072857.01530504</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>835BA487-0AB2-423E-9F6B-7F7FD4F9C3B7</string>
+		</dict>
 		<key>881F0E4B-5F5A-46EB-A9FC-E985E4FF6A61</key>
 		<dict>
 			<key>className</key>
@@ -175,6 +277,74 @@
 			<string>Build SandwichApp</string>
 			<key>uniqueIdentifier</key>
 			<string>881F0E4B-5F5A-46EB-A9FC-E985E4FF6A61</string>
+		</dict>
+		<key>925AF769-8819-4054-9E72-716695FF2BD6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>925AF769-8819-4054-9E72-716695FF2BD6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612072891.56956398</real>
+			<key>timeStoppedRecording</key>
+			<real>612072892.35050595</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>925AF769-8819-4054-9E72-716695FF2BD6</string>
+		</dict>
+		<key>A1CD9399-DC99-48C6-8D41-8DA2B9CEC760</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A1CD9399-DC99-48C6-8D41-8DA2B9CEC760.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612073268.067693</real>
+			<key>timeStoppedRecording</key>
+			<real>612073268.81036794</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>A1CD9399-DC99-48C6-8D41-8DA2B9CEC760</string>
 		</dict>
 		<key>BF52C971-D43C-4A73-97CD-5100E6AE9087</key>
 		<dict>

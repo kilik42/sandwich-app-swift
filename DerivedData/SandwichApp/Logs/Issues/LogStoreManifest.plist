@@ -34,6 +34,34 @@
 			<key>uniqueIdentifier</key>
 			<string>7AD4E501-2C85-4E61-BAC1-A36948552971</string>
 		</dict>
+		<key>B9B3607D-FC7B-47D2-9F71-0F5EB6D6B676</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>B9B3607D-FC7B-47D2-9F71-0F5EB6D6B676.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>SandwichApp-gihwhqkyicxrdufmbujguficrvez</string>
+			<key>timeStartedRecording</key>
+			<real>612073268.09551704</real>
+			<key>timeStoppedRecording</key>
+			<real>612073268.80663502</real>
+			<key>title</key>
+			<string>Build target SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>B9B3607D-FC7B-47D2-9F71-0F5EB6D6B676</string>
+		</dict>
 		<key>C62DE1A3-3B54-4E0D-AD67-A8227F01904A</key>
 		<dict>
 			<key>className</key>
@@ -61,34 +89,6 @@
 			<string>Build target Pods-SandwichApp</string>
 			<key>uniqueIdentifier</key>
 			<string>C62DE1A3-3B54-4E0D-AD67-A8227F01904A</string>
-		</dict>
-		<key>C9872EFC-DE2B-471B-AD64-3D94FBCC6B58</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>C9872EFC-DE2B-471B-AD64-3D94FBCC6B58.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>SandwichApp-gihwhqkyicxrdufmbujguficrvez</string>
-			<key>timeStartedRecording</key>
-			<real>612072313.197299</real>
-			<key>timeStoppedRecording</key>
-			<real>612072314.15353894</real>
-			<key>title</key>
-			<string>Build target SandwichApp</string>
-			<key>uniqueIdentifier</key>
-			<string>C9872EFC-DE2B-471B-AD64-3D94FBCC6B58</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
