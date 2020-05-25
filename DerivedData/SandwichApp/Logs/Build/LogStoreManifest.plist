@@ -210,6 +210,40 @@
 			<key>uniqueIdentifier</key>
 			<string>BCA8255B-8763-459E-B403-C8671FC8D55E</string>
 		</dict>
+		<key>EA083BDE-578B-4641-A142-2525FC9C88C5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EA083BDE-578B-4641-A142-2525FC9C88C5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612065155.31872904</real>
+			<key>timeStoppedRecording</key>
+			<real>612065158.81132805</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>EA083BDE-578B-4641-A142-2525FC9C88C5</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

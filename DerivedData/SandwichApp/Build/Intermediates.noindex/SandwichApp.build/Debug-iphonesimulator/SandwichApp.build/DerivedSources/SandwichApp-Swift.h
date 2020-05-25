@@ -231,9 +231,16 @@ SWIFT_CLASS("_TtC11SandwichApp24DirectionsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
+@class UIView;
 
 SWIFT_CLASS("_TtC11SandwichApp14SandwichQuizVC")
 @interface SandwichQuizVC : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified firstChoice;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified seconcChoice;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified thirdChoice;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified fourthChoice;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified fifthChoice;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

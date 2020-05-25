@@ -6,34 +6,6 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>8A645BEB-E01E-487D-9F92-12DC5BEA9742</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>8A645BEB-E01E-487D-9F92-12DC5BEA9742.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>SandwichApp-gihwhqkyicxrdufmbujguficrvez</string>
-			<key>timeStartedRecording</key>
-			<real>612064950.82881701</real>
-			<key>timeStoppedRecording</key>
-			<real>612064954.13832295</real>
-			<key>title</key>
-			<string>Build target SandwichApp</string>
-			<key>uniqueIdentifier</key>
-			<string>8A645BEB-E01E-487D-9F92-12DC5BEA9742</string>
-		</dict>
 		<key>A48C6990-CA01-4F5F-BE95-4EA5EC729946</key>
 		<dict>
 			<key>className</key>
@@ -89,6 +61,34 @@
 			<string>Build target YoutubePlayer-in-WKWebView</string>
 			<key>uniqueIdentifier</key>
 			<string>A521BCBA-DF3F-4351-A651-D1C4D47CB90D</string>
+		</dict>
+		<key>C26D2E89-F0DA-423C-962C-51CF974FE0BB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>C26D2E89-F0DA-423C-962C-51CF974FE0BB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>SandwichApp-gihwhqkyicxrdufmbujguficrvez</string>
+			<key>timeStartedRecording</key>
+			<real>612065155.35035098</real>
+			<key>timeStoppedRecording</key>
+			<real>612065158.80760503</real>
+			<key>title</key>
+			<string>Build target SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>C26D2E89-F0DA-423C-962C-51CF974FE0BB</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

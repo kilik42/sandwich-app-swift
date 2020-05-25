@@ -6,9 +6,15 @@ provides-nominal:
 provides-member:
 - ["11SandwichApp0A6QuizVCC", ""]
 provides-dynamic-lookup:
+- "choices"
+- "firstChoice"
+- "seconcChoice"
+- "thirdChoice"
 - "viewDidLoad"
 depends-top-level:
 - "SandwichQuizVC"
+- "StringLiteralType"
+- "UITextField"
 - "UIViewController"
 depends-member:
 - ["s7CVarArgP", ""]
@@ -25,12 +31,22 @@ depends-member:
 - !private ["So8NSCodingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "choices"]
+- ["So8NSObjectC", "firstChoice"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "seconcChoice"]
+- ["So8NSObjectC", "thirdChoice"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- ["11SandwichApp0A6QuizVCC", "UITextField"]
+- ["11SandwichApp0A6QuizVCC", "choices"]
 - ["11SandwichApp0A6QuizVCC", "deinit"]
+- ["11SandwichApp0A6QuizVCC", "firstChoice"]
 - ["11SandwichApp0A6QuizVCC", "init"]
+- ["11SandwichApp0A6QuizVCC", "seconcChoice"]
+- ["11SandwichApp0A6QuizVCC", "thirdChoice"]
 - ["11SandwichApp0A6QuizVCC", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
@@ -40,7 +56,12 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "choices"]
+- ["So11UIResponderC", "firstChoice"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "seconcChoice"]
+- ["So11UIResponderC", "thirdChoice"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
@@ -50,8 +71,13 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "UITextField"]
 - ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "choices"]
+- ["So16UIViewControllerC", "firstChoice"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "seconcChoice"]
+- ["So16UIViewControllerC", "thirdChoice"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
@@ -123,4 +149,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "c04e824f4edf35f6a1c51c8d7f70b256"
+interface-hash: "a7f7f4939931c119de181609e27e6688"
