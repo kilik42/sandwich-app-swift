@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>A48C6990-CA01-4F5F-BE95-4EA5EC729946</key>
+		<key>7AD4E501-2C85-4E61-BAC1-A36948552971</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,35 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
 			<key>fileName</key>
-			<string>A48C6990-CA01-4F5F-BE95-4EA5EC729946.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>Pods-SandwichApp-fdgvhwwhylgvlqaqaibypespnmow</string>
-			<key>timeStartedRecording</key>
-			<real>612062177.35143995</real>
-			<key>timeStoppedRecording</key>
-			<real>612062178.45824897</real>
-			<key>title</key>
-			<string>Build target Pods-SandwichApp</string>
-			<key>uniqueIdentifier</key>
-			<string>A48C6990-CA01-4F5F-BE95-4EA5EC729946</string>
-		</dict>
-		<key>A521BCBA-DF3F-4351-A651-D1C4D47CB90D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
-			<key>fileName</key>
-			<string>A521BCBA-DF3F-4351-A651-D1C4D47CB90D.xcactivitylog</string>
+			<string>7AD4E501-2C85-4E61-BAC1-A36948552971.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,15 +26,43 @@
 			<key>signature</key>
 			<string>YoutubePlayer-in-WKWebView-fdgvhwwhylgvlqaqaibypespnmow</string>
 			<key>timeStartedRecording</key>
-			<real>612062172.91288805</real>
+			<real>612070305.32745695</real>
 			<key>timeStoppedRecording</key>
-			<real>612062177.350986</real>
+			<real>612070305.98411202</real>
 			<key>title</key>
 			<string>Build target YoutubePlayer-in-WKWebView</string>
 			<key>uniqueIdentifier</key>
-			<string>A521BCBA-DF3F-4351-A651-D1C4D47CB90D</string>
+			<string>7AD4E501-2C85-4E61-BAC1-A36948552971</string>
 		</dict>
-		<key>C26D2E89-F0DA-423C-962C-51CF974FE0BB</key>
+		<key>C62DE1A3-3B54-4E0D-AD67-A8227F01904A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>C62DE1A3-3B54-4E0D-AD67-A8227F01904A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>Pods-SandwichApp-fdgvhwwhylgvlqaqaibypespnmow</string>
+			<key>timeStartedRecording</key>
+			<real>612070305.98474395</real>
+			<key>timeStoppedRecording</key>
+			<real>612070306.10512304</real>
+			<key>title</key>
+			<string>Build target Pods-SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>C62DE1A3-3B54-4E0D-AD67-A8227F01904A</string>
+		</dict>
+		<key>C9872EFC-DE2B-471B-AD64-3D94FBCC6B58</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -71,7 +71,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>C26D2E89-F0DA-423C-962C-51CF974FE0BB.xcactivitylog</string>
+			<string>C9872EFC-DE2B-471B-AD64-3D94FBCC6B58.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>SandwichApp-gihwhqkyicxrdufmbujguficrvez</string>
 			<key>timeStartedRecording</key>
-			<real>612065155.35035098</real>
+			<real>612072313.197299</real>
 			<key>timeStoppedRecording</key>
-			<real>612065158.80760503</real>
+			<real>612072314.15353894</real>
 			<key>title</key>
 			<string>Build target SandwichApp</string>
 			<key>uniqueIdentifier</key>
-			<string>C26D2E89-F0DA-423C-962C-51CF974FE0BB</string>
+			<string>C9872EFC-DE2B-471B-AD64-3D94FBCC6B58</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

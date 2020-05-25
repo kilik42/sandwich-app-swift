@@ -11,13 +11,15 @@ import UIKit
 class SandwichQuizVC: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource {
     
     let choicesPick = [
-        "what kind of sandwich you are making ",
+        "choice of sandwich you are making",
         "Buying the Essentials",
         "Grab the Bread",
         "Apply the Condiment",
         "Lay Down the Meat",
     
     ]
+    
+    var selectedChoice:String?
     
     @IBOutlet weak var firstChoice: UITextField!
     
@@ -33,20 +35,79 @@ class SandwichQuizVC: UIViewController,UIPickerViewDelegate, UIPickerViewDataSou
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        createChoicePicker1()
+        
+        createChoicePicker2()
+        createChoicePicker3()
+        createChoicePicker4()
+        createChoicePicker5()
+        createToolBar()
         // Do any additional setup after loading the view.
     }
     
-    func createChoicePicker(){
+    func createChoicePicker1(){
         let choice = UIPickerView()
         choice.delegate = self
         
         firstChoice.inputView = choice
-        seconcChoice.inputView = choice
-        thirdChoice.inputView = choice
-        fourthChoice.inputView = choice
-        fifthChoice.inputView = choice
         
+    }
+    
+    func createChoicePicker2(){
+           let choice = UIPickerView()
+           choice.delegate = self
+           
+           
+           seconcChoice.inputView = choice
+           
+       }
+    func createChoicePicker3(){
+           let choice = UIPickerView()
+           choice.delegate = self
+           
+          
+           thirdChoice.inputView = choice
+       
+       }
+    
+    func createChoicePicker4(){
+           let choice = UIPickerView()
+           choice.delegate = self
+           
+           
+           fourthChoice.inputView = choice
+         
+       }
+    
+    func createChoicePicker5(){
+           let choice = UIPickerView()
+           choice.delegate = self
+           
+           
+           fifthChoice.inputView = choice
+       }
+    
+    
+    func createToolBar(){
+        let toolBar = UIToolbar()
+        toolBar.sizeToFit()
+        
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(dismissKeyboard))
+        
+        toolBar.setItems([doneButton], animated: false)
+        toolBar.isUserInteractionEnabled = true
+        
+        firstChoice.inputAccessoryView = toolBar
+        seconcChoice.inputAccessoryView = toolBar
+        thirdChoice.inputAccessoryView = toolBar
+        fourthChoice.inputAccessoryView = toolBar
+        fifthChoice.inputAccessoryView = toolBar
+        
+    }
+    
+   @objc func dismissKeyboard(){
+        view.endEditing(true)
     }
     
     
@@ -64,7 +125,40 @@ class SandwichQuizVC: UIViewController,UIPickerViewDelegate, UIPickerViewDataSou
         return choicesPick[row]
     }
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        return
+        selectedChoice = choicesPick[row]
+//        firstChoice.text = selectedChoice
+//        secondChoice.text = selectedChoice
+//        thirdChoice.text = selectedChoice
+//        fourthChoice.text = selectedChoice
+//        fifthChoice.text = selectedChoice
+        if(firstChoice.isFirstResponder){
+            firstChoice.text = selectedChoice
+        }
+        else if (seconcChoice.isFirstResponder){
+            seconcChoice.text = selectedChoice
+        }
+        else if (thirdChoice.isFirstResponder){
+                   thirdChoice.text = selectedChoice
+               }
+        else if (fourthChoice.isFirstResponder){
+                   fourthChoice.text = selectedChoice
+               }
+        else if (fifthChoice.isFirstResponder){
+                   fifthChoice.text = selectedChoice
+               }
+        
+        
+    }
+    
+    
+    
+    @IBAction func submitBtnAction(_ sender: Any) {
+        
+        firstChoice.text = " "
+        seconcChoice.text = " "
+        thirdChoice.text = " "
+        fourthChoice.text = " "
+        fifthChoice.text = " "
     }
 }
 
