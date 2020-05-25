@@ -6,85 +6,360 @@ provides-nominal:
 provides-member:
 - ["11SandwichApp24DirectionsViewControllerC", ""]
 provides-dynamic-lookup:
+- "player"
+- "playerController"
 - "videoPopUpBtn"
 - "viewDidLoad"
 depends-top-level:
+- "AVPlayerViewController"
+- "AVPlayerViewControllerDelegate"
 - "DirectionsViewController"
+- !private "StringLiteralType"
 - "UIViewController"
+- "WKYTPlayerView"
 depends-member:
+- ["So22AVPlayerViewControllerC", "init"]
+- ["So30AVPlayerViewControllerDelegateP", "AVPlayerViewController"]
+- ["So30AVPlayerViewControllerDelegateP", ""]
+- !private ["So30AVPlayerViewControllerDelegateP", "player"]
+- ["So30AVPlayerViewControllerDelegateP", "playerViewController"]
+- ["So30AVPlayerViewControllerDelegateP", "playerViewControllerDidStartPictureInPicture"]
+- ["So30AVPlayerViewControllerDelegateP", "playerViewControllerDidStopPictureInPicture"]
+- ["So30AVPlayerViewControllerDelegateP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So30AVPlayerViewControllerDelegateP", "playerViewControllerWillStartPictureInPicture"]
+- ["So30AVPlayerViewControllerDelegateP", "playerViewControllerWillStopPictureInPicture"]
+- !private ["So15CALayerDelegateP", "load"]
+- ["s7CVarArgP", "AVPlayerViewController"]
 - ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "load"]
+- !private ["s7CVarArgP", "player"]
+- ["s7CVarArgP", "playerViewController"]
+- ["s7CVarArgP", "playerViewControllerDidStartPictureInPicture"]
+- ["s7CVarArgP", "playerViewControllerDidStopPictureInPicture"]
+- ["s7CVarArgP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["s7CVarArgP", "playerViewControllerWillStartPictureInPicture"]
+- ["s7CVarArgP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["s7CVarArgP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", "AVPlayerViewController"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "load"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- ["s28CustomDebugStringConvertibleP", "playerViewController"]
+- ["s28CustomDebugStringConvertibleP", "playerViewControllerDidStartPictureInPicture"]
+- ["s28CustomDebugStringConvertibleP", "playerViewControllerDidStopPictureInPicture"]
+- ["s28CustomDebugStringConvertibleP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["s28CustomDebugStringConvertibleP", "playerViewControllerWillStartPictureInPicture"]
+- ["s28CustomDebugStringConvertibleP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "load"]
+- ["s23CustomStringConvertibleP", "AVPlayerViewController"]
 - ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "load"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- ["s23CustomStringConvertibleP", "playerViewController"]
+- ["s23CustomStringConvertibleP", "playerViewControllerDidStartPictureInPicture"]
+- ["s23CustomStringConvertibleP", "playerViewControllerDidStopPictureInPicture"]
+- ["s23CustomStringConvertibleP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["s23CustomStringConvertibleP", "playerViewControllerWillStartPictureInPicture"]
+- ["s23CustomStringConvertibleP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "load"]
+- ["11SandwichApp24DirectionsViewControllerC", "AVPlayerViewController"]
+- ["11SandwichApp24DirectionsViewControllerC", "WKYTPlayerView"]
 - ["11SandwichApp24DirectionsViewControllerC", "deinit"]
 - ["11SandwichApp24DirectionsViewControllerC", "init"]
+- ["11SandwichApp24DirectionsViewControllerC", "player"]
+- ["11SandwichApp24DirectionsViewControllerC", "playerController"]
+- ["11SandwichApp24DirectionsViewControllerC", "playerViewController"]
+- ["11SandwichApp24DirectionsViewControllerC", "playerViewControllerDidStartPictureInPicture"]
+- ["11SandwichApp24DirectionsViewControllerC", "playerViewControllerDidStopPictureInPicture"]
+- ["11SandwichApp24DirectionsViewControllerC", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["11SandwichApp24DirectionsViewControllerC", "playerViewControllerWillStartPictureInPicture"]
+- ["11SandwichApp24DirectionsViewControllerC", "playerViewControllerWillStopPictureInPicture"]
 - ["11SandwichApp24DirectionsViewControllerC", "videoPopUpBtn"]
 - ["11SandwichApp24DirectionsViewControllerC", "viewDidLoad"]
+- !private ["SE", "load"]
+- ["SQ", "AVPlayerViewController"]
 - ["SQ", ""]
+- ["SQ", "init"]
+- !private ["SQ", "load"]
+- !private ["SQ", "player"]
+- ["SQ", "playerViewController"]
+- ["SQ", "playerViewControllerDidStartPictureInPicture"]
+- ["SQ", "playerViewControllerDidStopPictureInPicture"]
+- ["SQ", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["SQ", "playerViewControllerWillStartPictureInPicture"]
+- ["SQ", "playerViewControllerWillStopPictureInPicture"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "load"]
+- ["SH", "AVPlayerViewController"]
 - ["SH", ""]
+- ["SH", "init"]
+- !private ["SH", "load"]
+- !private ["SH", "player"]
+- ["SH", "playerViewController"]
+- ["SH", "playerViewControllerDidStartPictureInPicture"]
+- ["SH", "playerViewControllerDidStopPictureInPicture"]
+- ["SH", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["SH", "playerViewControllerWillStartPictureInPicture"]
+- ["SH", "playerViewControllerWillStopPictureInPicture"]
 - !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", "AVPlayerViewController"]
 - ["So8NSCodingP", ""]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "load"]
+- !private ["So8NSCodingP", "player"]
+- ["So8NSCodingP", "playerViewController"]
+- ["So8NSCodingP", "playerViewControllerDidStartPictureInPicture"]
+- ["So8NSCodingP", "playerViewControllerDidStopPictureInPicture"]
+- ["So8NSCodingP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So8NSCodingP", "playerViewControllerWillStartPictureInPicture"]
+- ["So8NSCodingP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "AVPlayerViewController"]
 - ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "player"]
+- ["So26NSExtensionRequestHandlingP", "playerViewController"]
+- ["So26NSExtensionRequestHandlingP", "playerViewControllerDidStartPictureInPicture"]
+- ["So26NSExtensionRequestHandlingP", "playerViewControllerDidStopPictureInPicture"]
+- ["So26NSExtensionRequestHandlingP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So26NSExtensionRequestHandlingP", "playerViewControllerWillStartPictureInPicture"]
+- ["So26NSExtensionRequestHandlingP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "AVPlayerViewController"]
+- ["So8NSObjectC", "WKYTPlayerView"]
 - ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "load"]
+- ["So8NSObjectC", "player"]
+- ["So8NSObjectC", "playerController"]
+- ["So8NSObjectC", "playerViewController"]
+- ["So8NSObjectC", "playerViewControllerDidStartPictureInPicture"]
+- ["So8NSObjectC", "playerViewControllerDidStopPictureInPicture"]
+- ["So8NSObjectC", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So8NSObjectC", "playerViewControllerWillStartPictureInPicture"]
+- ["So8NSObjectC", "playerViewControllerWillStopPictureInPicture"]
 - ["So8NSObjectC", "videoPopUpBtn"]
 - ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "AVPlayerViewController"]
 - ["So8NSObjectP", ""]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "load"]
+- !private ["So8NSObjectP", "player"]
+- ["So8NSObjectP", "playerViewController"]
+- ["So8NSObjectP", "playerViewControllerDidStartPictureInPicture"]
+- ["So8NSObjectP", "playerViewControllerDidStopPictureInPicture"]
+- ["So8NSObjectP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So8NSObjectP", "playerViewControllerWillStartPictureInPicture"]
+- ["So8NSObjectP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "load"]
+- !private ["So29UIAccessibilityIdentificationP", "load"]
+- !private ["So12UIAppearanceP", "load"]
+- ["So21UIAppearanceContainerP", "AVPlayerViewController"]
 - ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "load"]
+- !private ["So21UIAppearanceContainerP", "player"]
+- ["So21UIAppearanceContainerP", "playerViewController"]
+- ["So21UIAppearanceContainerP", "playerViewControllerDidStartPictureInPicture"]
+- ["So21UIAppearanceContainerP", "playerViewControllerDidStopPictureInPicture"]
+- ["So21UIAppearanceContainerP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So21UIAppearanceContainerP", "playerViewControllerWillStartPictureInPicture"]
+- ["So21UIAppearanceContainerP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "AVPlayerViewController"]
 - ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "player"]
+- ["So18UIContentContainerP", "playerViewController"]
+- ["So18UIContentContainerP", "playerViewControllerDidStartPictureInPicture"]
+- ["So18UIContentContainerP", "playerViewControllerDidStopPictureInPicture"]
+- ["So18UIContentContainerP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So18UIContentContainerP", "playerViewControllerWillStartPictureInPicture"]
+- ["So18UIContentContainerP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "load"]
+- !private ["So13UIDynamicItemP", "load"]
+- ["So18UIFocusEnvironmentP", "AVPlayerViewController"]
 - ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "load"]
+- !private ["So18UIFocusEnvironmentP", "player"]
+- ["So18UIFocusEnvironmentP", "playerViewController"]
+- ["So18UIFocusEnvironmentP", "playerViewControllerDidStartPictureInPicture"]
+- ["So18UIFocusEnvironmentP", "playerViewControllerDidStopPictureInPicture"]
+- ["So18UIFocusEnvironmentP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So18UIFocusEnvironmentP", "playerViewControllerWillStartPictureInPicture"]
+- ["So18UIFocusEnvironmentP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "load"]
+- !private ["So20UIFocusItemContainerP", "load"]
+- !private ["So24UILargeContentViewerItemP", "load"]
+- ["So30UIPasteConfigurationSupportingP", "AVPlayerViewController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "load"]
+- !private ["So30UIPasteConfigurationSupportingP", "player"]
+- ["So30UIPasteConfigurationSupportingP", "playerViewController"]
+- ["So30UIPasteConfigurationSupportingP", "playerViewControllerDidStartPictureInPicture"]
+- ["So30UIPasteConfigurationSupportingP", "playerViewControllerDidStopPictureInPicture"]
+- ["So30UIPasteConfigurationSupportingP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So30UIPasteConfigurationSupportingP", "playerViewControllerWillStartPictureInPicture"]
+- ["So30UIPasteConfigurationSupportingP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AVPlayerViewController"]
+- ["So11UIResponderC", "WKYTPlayerView"]
 - ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "load"]
+- ["So11UIResponderC", "player"]
+- ["So11UIResponderC", "playerController"]
+- ["So11UIResponderC", "playerViewController"]
+- ["So11UIResponderC", "playerViewControllerDidStartPictureInPicture"]
+- ["So11UIResponderC", "playerViewControllerDidStopPictureInPicture"]
+- ["So11UIResponderC", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So11UIResponderC", "playerViewControllerWillStartPictureInPicture"]
+- ["So11UIResponderC", "playerViewControllerWillStopPictureInPicture"]
 - ["So11UIResponderC", "videoPopUpBtn"]
 - ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "AVPlayerViewController"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "load"]
+- !private ["So30UIResponderStandardEditActionsP", "player"]
+- ["So30UIResponderStandardEditActionsP", "playerViewController"]
+- ["So30UIResponderStandardEditActionsP", "playerViewControllerDidStartPictureInPicture"]
+- ["So30UIResponderStandardEditActionsP", "playerViewControllerDidStopPictureInPicture"]
+- ["So30UIResponderStandardEditActionsP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So30UIResponderStandardEditActionsP", "playerViewControllerWillStartPictureInPicture"]
+- ["So30UIResponderStandardEditActionsP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "AVPlayerViewController"]
 - ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "player"]
+- ["So16UIStateRestoringP", "playerViewController"]
+- ["So16UIStateRestoringP", "playerViewControllerDidStartPictureInPicture"]
+- ["So16UIStateRestoringP", "playerViewControllerDidStopPictureInPicture"]
+- ["So16UIStateRestoringP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So16UIStateRestoringP", "playerViewControllerWillStartPictureInPicture"]
+- ["So16UIStateRestoringP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "AVPlayerViewController"]
 - ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "load"]
+- !private ["So18UITraitEnvironmentP", "player"]
+- ["So18UITraitEnvironmentP", "playerViewController"]
+- ["So18UITraitEnvironmentP", "playerViewControllerDidStartPictureInPicture"]
+- ["So18UITraitEnvironmentP", "playerViewControllerDidStopPictureInPicture"]
+- ["So18UITraitEnvironmentP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So18UITraitEnvironmentP", "playerViewControllerWillStartPictureInPicture"]
+- ["So18UITraitEnvironmentP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "AVPlayerViewController"]
 - ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "load"]
+- !private ["So23UIUserActivityRestoringP", "player"]
+- ["So23UIUserActivityRestoringP", "playerViewController"]
+- ["So23UIUserActivityRestoringP", "playerViewControllerDidStartPictureInPicture"]
+- ["So23UIUserActivityRestoringP", "playerViewControllerDidStopPictureInPicture"]
+- ["So23UIUserActivityRestoringP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So23UIUserActivityRestoringP", "playerViewControllerWillStartPictureInPicture"]
+- ["So23UIUserActivityRestoringP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "load"]
+- ["So16UIViewControllerC", "AVPlayerViewController"]
+- ["So16UIViewControllerC", "WKYTPlayerView"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "player"]
+- ["So16UIViewControllerC", "playerController"]
+- ["So16UIViewControllerC", "playerViewController"]
+- ["So16UIViewControllerC", "playerViewControllerDidStartPictureInPicture"]
+- ["So16UIViewControllerC", "playerViewControllerDidStopPictureInPicture"]
+- ["So16UIViewControllerC", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["So16UIViewControllerC", "playerViewControllerWillStartPictureInPicture"]
+- ["So16UIViewControllerC", "playerViewControllerWillStopPictureInPicture"]
 - ["So16UIViewControllerC", "videoPopUpBtn"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["So20WKNavigationDelegateP", "load"]
+- !private ["So12WKUIDelegateP", "load"]
+- !private ["So14WKYTPlayerViewC", "load"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AVPlayerViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "load"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "playerViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "playerViewControllerDidStartPictureInPicture"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "playerViewControllerDidStopPictureInPicture"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "playerViewControllerWillStartPictureInPicture"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AVPlayerViewController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "load"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "player"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playerViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playerViewControllerDidStartPictureInPicture"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playerViewControllerDidStopPictureInPicture"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playerViewControllerShouldAutomaticallyDismissAtPictureInPictureStart"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playerViewControllerWillStartPictureInPicture"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playerViewControllerWillStopPictureInPicture"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "load"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "load"]
 depends-nominal:
+- "So22AVPlayerViewControllerC"
+- "So30AVPlayerViewControllerDelegateP"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "Se"
 - "11SandwichApp24DirectionsViewControllerC"
+- !private "SE"
 - "SQ"
+- !private "s23ExpressibleByNilLiteralP"
 - "SH"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sq"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
 - "So16UIViewControllerC"
+- !private "So20WKNavigationDelegateP"
+- !private "So12WKUIDelegateP"
+- !private "So14WKYTPlayerViewC"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
@@ -105,6 +380,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/marvinevins/Library/Autosave Information/SandwichApp/DerivedData/SandwichApp/Build/Products/Debug-iphonesimulator/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework/Headers/YoutubePlayer-in-WKWebView-umbrella.h"
+- "/Users/marvinevins/Library/Autosave Information/SandwichApp/DerivedData/SandwichApp/Build/Products/Debug-iphonesimulator/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework/Headers/WKYTPlayerView.h"
+- "/Users/marvinevins/Library/Autosave Information/SandwichApp/DerivedData/SandwichApp/Build/Products/Debug-iphonesimulator/YoutubePlayer-in-WKWebView/YoutubePlayer_in_WKWebView.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
@@ -119,8 +397,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a193c3cfff9908daf8eeaac0ce1dd522"
+interface-hash: "af544017a5a34f47e9f1cd9b3762bdb6"

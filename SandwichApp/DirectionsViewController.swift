@@ -8,8 +8,13 @@
 
 import UIKit
 import AVKit
+import YoutubePlayer_in_WKWebView
 class DirectionsViewController: UIViewController, AVPlayerViewControllerDelegate{
 
+    var playerController = AVPlayerViewController()
+    
+    @IBOutlet weak var player: WKYTPlayerView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,22 +23,46 @@ class DirectionsViewController: UIViewController, AVPlayerViewControllerDelegate
     
     @IBAction func videoPopUpBtn(_ sender: Any) {
         
-        guard let url = URL(string: "https://www.youtube.com/watch?v=YeEe8QasV5s")else {return }
+//
+        player.load(withVideoId: "YeEe8QasV5s")
         
         
+
         
         
         
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
+
+
+
+////dismiss this//////////////////////////////////////////////
+//               // guard let url = URL(string: "How to make a sandwich")else {return }
+//                let path = Bundle.main.path(forResource: "sandwich", ofType: ".mp4" )
+//                //player = AVPlayer(url: URL(fileURLWithPath: path!))
+//                //let player = AVPlayer(url: url)
+//                 let player = AVPlayer(url: URL(fileURLWithPath: path!))
+//
+//                playerController = AVPlayerViewController()
+//                playerController.player = player
+//                playerController.allowsPictureInPicturePlayback = true
+//                playerController.delegate = self
+//                playerController.player?.play()
+//
+//                self.present(playerController, animated: true, completion: nil)
+//        guard let url = URL(string: "")else {return }
+//
+//        let player = AVPlayer(url: url)
+//
+//        playerController = AVPlayerViewController()
+//        playerController.player = player
+//        playerController.allowsPictureInPicturePlayback = true
+//        playerController.delegate = self
+//        playerController.player?.play()
+//
+//        self.present(playerController, animated: true, completion: nil)
+        
+        

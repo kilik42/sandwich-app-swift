@@ -186,6 +186,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import AVKit;
 @import UIKit;
 #endif
 
@@ -217,11 +218,13 @@ SWIFT_CLASS("_TtC11SandwichApp11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class WKYTPlayerView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11SandwichApp24DirectionsViewController")
-@interface DirectionsViewController : UIViewController
+@interface DirectionsViewController : UIViewController <AVPlayerViewControllerDelegate>
+@property (nonatomic, weak) IBOutlet WKYTPlayerView * _Null_unspecified player;
 - (void)viewDidLoad;
 - (IBAction)videoPopUpBtn:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

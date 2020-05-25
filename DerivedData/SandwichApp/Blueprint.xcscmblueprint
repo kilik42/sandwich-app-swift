@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B7A64C5937FD82A05FDCF72D372496FD9818EFCC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B7A64C5937FD82A05FDCF72D372496FD9818EFCC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B89B19F0-B4AF-4C4B-B0C6-B7F58102EE61",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B7A64C5937FD82A05FDCF72D372496FD9818EFCC" : "SandwichApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SandwichApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SandwichApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kilik42\/sandwich-app-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B7A64C5937FD82A05FDCF72D372496FD9818EFCC"
+    }
+  ]
+}

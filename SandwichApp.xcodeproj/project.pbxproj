@@ -18,6 +18,7 @@
 		104DBD952477AC1D006A8F6D /* introVid2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 104DBD8F2477AAA0006A8F6D /* introVid2.mp4 */; };
 		104DBD972477ADEE006A8F6D /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104DBD962477ADEE006A8F6D /* DirectionsViewController.swift */; };
 		104DBD992477AE62006A8F6D /* SandwichQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104DBD982477AE62006A8F6D /* SandwichQuizVC.swift */; };
+		16760139E0BA62A6C4EE0B34 /* Pods_SandwichApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F85110D63ED18C59A761CCB /* Pods_SandwichApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,10 @@
 		104DBD922477AC02006A8F6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		104DBD962477ADEE006A8F6D /* DirectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
 		104DBD982477AE62006A8F6D /* SandwichQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichQuizVC.swift; sourceTree = "<group>"; };
+		108DC799247B327D006954DA /* How to make a sandwich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "How to make a sandwich.mp4"; sourceTree = "<group>"; };
+		2F85110D63ED18C59A761CCB /* Pods_SandwichApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SandwichApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BDC580E27783E909DD607D3 /* Pods-SandwichApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandwichApp.release.xcconfig"; path = "Target Support Files/Pods-SandwichApp/Pods-SandwichApp.release.xcconfig"; sourceTree = "<group>"; };
+		F489A7D5A7287D21CBAF5085 /* Pods-SandwichApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SandwichApp.debug.xcconfig"; path = "Target Support Files/Pods-SandwichApp/Pods-SandwichApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				104DBD932477AC02006A8F6D /* AVFoundation.framework in Frameworks */,
+				16760139E0BA62A6C4EE0B34 /* Pods_SandwichApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +60,7 @@
 				104DBD7A2477A860006A8F6D /* SandwichApp */,
 				104DBD792477A860006A8F6D /* Products */,
 				104DBD912477AC01006A8F6D /* Frameworks */,
+				7142E62D534FDE5F89F92018 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +93,21 @@
 		104DBD912477AC01006A8F6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				108DC799247B327D006954DA /* How to make a sandwich.mp4 */,
 				104DBD922477AC02006A8F6D /* AVFoundation.framework */,
+				2F85110D63ED18C59A761CCB /* Pods_SandwichApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7142E62D534FDE5F89F92018 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F489A7D5A7287D21CBAF5085 /* Pods-SandwichApp.debug.xcconfig */,
+				3BDC580E27783E909DD607D3 /* Pods-SandwichApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 104DBD8C2477A861006A8F6D /* Build configuration list for PBXNativeTarget "SandwichApp" */;
 			buildPhases = (
+				ECE449A96107DB08ABB4F7C2 /* [CP] Check Pods Manifest.lock */,
 				104DBD742477A860006A8F6D /* Sources */,
 				104DBD752477A860006A8F6D /* Frameworks */,
 				104DBD762477A860006A8F6D /* Resources */,
+				41A0EF2C7C79A6D1B26ECD67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +179,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41A0EF2C7C79A6D1B26ECD67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SandwichApp/Pods-SandwichApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SandwichApp/Pods-SandwichApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SandwichApp/Pods-SandwichApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE449A96107DB08ABB4F7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SandwichApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		104DBD742477A860006A8F6D /* Sources */ = {
@@ -310,6 +373,7 @@
 		};
 		104DBD8D2477A861006A8F6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F489A7D5A7287D21CBAF5085 /* Pods-SandwichApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +392,7 @@
 		};
 		104DBD8E2477A861006A8F6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BDC580E27783E909DD607D3 /* Pods-SandwichApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

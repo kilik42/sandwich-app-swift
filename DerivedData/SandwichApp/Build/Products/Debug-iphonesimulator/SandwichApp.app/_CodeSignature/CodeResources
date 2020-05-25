@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		SLC5K8R/ZZZ7m1OIRy6b6WO84kE=
+		ZFfx+MMr2nqxUVyVA3+//c7/sGE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		j61LT+tZw2CFqgSGlGf/n2RrZNM=
+		fzAz8J1x3Ya3P6FxGlWiVCJ1cis=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		LHHwZnTSeXZIJuolZlf5ob+GyHE=
+		Wd7F8NSMxTXk4EVEYuA4K9kb3bw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,19 +30,35 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		5vsq/C8bp7ogN6sSwcaZYoAiYR0=
+		h5lnng/mJcoKuYrPO985HX6eJtg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-sNe-Qe-IsS.nib</key>
 		<data>
-		RAb/4DtwTF/8qMltE1GTXM9Rln0=
+		ga8CTJ0BrwbHFtIP39mRfJWRzLo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/sNe-Qe-IsS-view-TZp-U9-HaB.nib</key>
 		<data>
-		4+x8pm5kVd2A23tV6U0RfovEor0=
+		AqzbjyPpwZppjKuD6YcGTARNJqs=
+		</data>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/Info.plist</key>
+		<data>
+		9X8EuC++gqL/1qBtC5f7at8GHjE=
+		</data>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/WKYTPlayerView.bundle/Assets/YTPlayerView-iframe-player.html</key>
+		<data>
+		su3hI0ilW0tv+DNDcvQKIhq+uSs=
+		</data>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/YoutubePlayer_in_WKWebView</key>
+		<data>
+		YrsNte35zsEM2hhpkVtrFlu3Xow=
+		</data>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2r92zLx5dnBHZ8ZCCF67jIHct+g=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		M9iR1a/UtBtqPWD9GsEfkGGqOt4=
+		cvbtDfLEiFRktUjmJVDN6f6cyRo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -70,7 +86,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJA66KQSXxk6sSBDm2/JII3446Xq6YIE3imzqPGdBck=
+			Wl2VORFblx0ff7OoP+ShoXDEyqK5RyMkQS40+ZpN3Qc=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -84,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EIPLyvigRfWOe80Bvoz1e3AdYrWjozczoWv2HlP6IH0=
+			Be3up0StE7LjpOLWD52mqW7BZ3UAaAnQ8Y09AlP1VtY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hCiCWLkPTkty0FnMiyEBbbbI18CkkhdE2F4c6sXbJnE=
+			YRFQfxSuC9P1ks1W7e5DVgd0tc80HVyBae4uRvT8b9A=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -105,21 +121,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xLpvJZBv8E0nZIrJ0sJLBkgW31wOIbX2ENMqGjp7o90=
+			OrCiSRFdQW/Yfic/jVSaWVn4Aly4NrjI3xcOQdIOrl8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-sNe-Qe-IsS.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wXbs5Wk9mEreBSgpMb7C1uNkN4RhO/LiLNm7haAZg3U=
+			RLGb9tz4S8dcMwLry+eXCHGB0sZ0Xxsloot0G9qrVtw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/sNe-Qe-IsS-view-TZp-U9-HaB.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C6JzVj7x0IcqyUwfL+4Y2OoishOMa3puf+ZkpilsQi8=
+			RQik35lSLqAGKbukFZgch6PvRnby7g+821mSgoKp8rI=
+			</data>
+		</dict>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uS8LXnUSamDWSY0OOgXCHafmgIHjF7+kStqKtBgGiYw=
+			</data>
+		</dict>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/WKYTPlayerView.bundle/Assets/YTPlayerView-iframe-player.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LlTkzI+56lWK6wS/FUgVcg1sk5cEOlR5IOPbnTQt4B0=
+			</data>
+		</dict>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/YoutubePlayer_in_WKWebView</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qWqFaPbOt44JqFNec/qFvS23pr3jy4Ejc3nGNhrG5zw=
+			</data>
+		</dict>
+		<key>Frameworks/YoutubePlayer_in_WKWebView.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2AlTxGvjT626XzOcQ8qOaON5NuilF/OQDyf52QqEhNw=
 			</data>
 		</dict>
 		<key>introVid.mp4</key>
