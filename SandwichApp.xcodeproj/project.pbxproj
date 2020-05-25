@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -75,12 +75,11 @@
 		104DBD7A2477A860006A8F6D /* SandwichApp */ = {
 			isa = PBXGroup;
 			children = (
+				10D25BE6247B81E800B5CB3D /* views */,
+				10D25BE5247B81E100B5CB3D /* model */,
+				10D25BE4247B81BB00B5CB3D /* controllers */,
 				104DBD7B2477A860006A8F6D /* AppDelegate.swift */,
 				104DBD7D2477A860006A8F6D /* SceneDelegate.swift */,
-				104DBD7F2477A860006A8F6D /* ViewController.swift */,
-				104DBD812477A860006A8F6D /* Main.storyboard */,
-				104DBD982477AE62006A8F6D /* SandwichQuizVC.swift */,
-				104DBD962477ADEE006A8F6D /* DirectionsViewController.swift */,
 				104DBD842477A861006A8F6D /* Assets.xcassets */,
 				104DBD862477A861006A8F6D /* LaunchScreen.storyboard */,
 				104DBD892477A861006A8F6D /* Info.plist */,
@@ -100,13 +99,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		10D25BE4247B81BB00B5CB3D /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				104DBD7F2477A860006A8F6D /* ViewController.swift */,
+				104DBD982477AE62006A8F6D /* SandwichQuizVC.swift */,
+				104DBD962477ADEE006A8F6D /* DirectionsViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		10D25BE5247B81E100B5CB3D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		10D25BE6247B81E800B5CB3D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				104DBD812477A860006A8F6D /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		7142E62D534FDE5F89F92018 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F489A7D5A7287D21CBAF5085 /* Pods-SandwichApp.debug.xcconfig */,
 				3BDC580E27783E909DD607D3 /* Pods-SandwichApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
