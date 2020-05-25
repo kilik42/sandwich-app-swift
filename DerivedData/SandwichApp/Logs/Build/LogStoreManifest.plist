@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0F5FC44B-86BB-433D-8706-35943A517A4C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>0F5FC44B-86BB-433D-8706-35943A517A4C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612064950.75960302</real>
+			<key>timeStoppedRecording</key>
+			<real>612064954.14288604</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>0F5FC44B-86BB-433D-8706-35943A517A4C</string>
+		</dict>
 		<key>4EC9C0CF-3FD5-4B09-AC7A-EC844BFDCA93</key>
 		<dict>
 			<key>className</key>
@@ -73,6 +107,40 @@
 			<string>Build SandwichApp</string>
 			<key>uniqueIdentifier</key>
 			<string>62B7B68E-F33B-4EA2-9EAE-D76D622D8AC7</string>
+		</dict>
+		<key>699C961C-FF86-453B-BCD7-7497E2477416</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>699C961C-FF86-453B-BCD7-7497E2477416.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SandwichApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SandwichApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SandwichApp</string>
+			<key>timeStartedRecording</key>
+			<real>612064957.24044502</real>
+			<key>timeStoppedRecording</key>
+			<real>612064957.27346206</real>
+			<key>title</key>
+			<string>Build SandwichApp</string>
+			<key>uniqueIdentifier</key>
+			<string>699C961C-FF86-453B-BCD7-7497E2477416</string>
 		</dict>
 		<key>AB1BDFD1-1A8B-45CF-9B6E-E44192831077</key>
 		<dict>
