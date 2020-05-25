@@ -232,16 +232,20 @@ SWIFT_CLASS("_TtC11SandwichApp24DirectionsViewController")
 @end
 
 @class UITextField;
-@class UIView;
+@class UIPickerView;
 
 SWIFT_CLASS("_TtC11SandwichApp14SandwichQuizVC")
-@interface SandwichQuizVC : UIViewController
+@interface SandwichQuizVC : UIViewController <UIPickerViewDataSource, UIPickerViewDelegate>
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified firstChoice;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified seconcChoice;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified thirdChoice;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified fourthChoice;
-@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified fifthChoice;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified fifthChoice;
 - (void)viewDidLoad;
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView * _Nonnull)pickerView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)pickerView:(UIPickerView * _Nonnull)pickerView numberOfRowsInComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)pickerView:(UIPickerView * _Nonnull)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component SWIFT_WARN_UNUSED_RESULT;
+- (void)pickerView:(UIPickerView * _Nonnull)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
