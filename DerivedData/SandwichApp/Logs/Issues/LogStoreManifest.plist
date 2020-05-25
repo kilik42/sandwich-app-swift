@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5A95AB33-8273-4D4D-BBBD-EB5BDB2D8F5C</key>
+		<key>27E1D1E0-8BC7-479E-A871-0D27960E8BDA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>5A95AB33-8273-4D4D-BBBD-EB5BDB2D8F5C.xcactivitylog</string>
+			<string>27E1D1E0-8BC7-479E-A871-0D27960E8BDA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>signature</key>
 			<string>SandwichApp-gihwhqkyicxrdufmbujguficrvez</string>
 			<key>timeStartedRecording</key>
-			<real>612062178.42752397</real>
+			<real>612063037.76154804</real>
 			<key>timeStoppedRecording</key>
-			<real>612062183.16305304</real>
+			<real>612063041.06647003</real>
 			<key>title</key>
 			<string>Build target SandwichApp</string>
 			<key>uniqueIdentifier</key>
-			<string>5A95AB33-8273-4D4D-BBBD-EB5BDB2D8F5C</string>
+			<string>27E1D1E0-8BC7-479E-A871-0D27960E8BDA</string>
 		</dict>
 		<key>A48C6990-CA01-4F5F-BE95-4EA5EC729946</key>
 		<dict>
